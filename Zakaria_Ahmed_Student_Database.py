@@ -99,4 +99,4 @@ def menu(): # a menu so the user can easily access the given options
         elif  choice == "q":
             break
         else: print('Invalid choice, please enter a valid choice!')
-menu() # the menu to run th
+menu() # Runs the entire code with all needed functions!
