@@ -82,6 +82,16 @@ def get_info():
     print('Number of Courses:' + new_list[4])
     infile.close()
 def menu(): # a menu so the user can easily access the given options 
+    print('Welcome to our students database')
+    print('********************************************************'
+        ' **  \n'
+        ' **	Please choose one of the options below:\n'
+        ' **	[a] to add new student record\n'
+        ' **	[e] to edit an existing student record\n'
+        ' **	[i] to get information about a student record\n'
+        ' **	[r] to remove an existing student record \n'
+        ' **	[q] to quit \n'
+        ' ********************************************************\n')
     choice = input('pick:')
     while True:
         if choice == "a":
