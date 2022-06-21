@@ -1,4 +1,5 @@
 # Zakaria Ahmed
+#py -m pip install paramiko
 import paramiko
 def add_student():
     infile = open("students.dat", "a")
